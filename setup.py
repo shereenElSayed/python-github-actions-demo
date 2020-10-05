@@ -1,5 +1,5 @@
 import os
-from setuptools import find_packages, setup
+from setuptools import  setup
 
 # read in README
 this_dir = os.path.abspath(os.path.dirname(__file__))
@@ -14,9 +14,6 @@ setup(
     description = 'Demo application for github actions',
     author = 'Shereen Elsayed',
     author_email = 's_elsayed@ucsb.edu',
-
-#     packages = find_packages(),
-
     entry_points = {
         'console_scripts': [
             'CS148 = main:main',
