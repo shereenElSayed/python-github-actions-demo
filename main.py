@@ -1,5 +1,6 @@
 import click
 
+
 @click.command()
 @click.option('--count', default=1, help='Number of greetings.')
 @click.option('--name', prompt='Your name',
@@ -12,6 +13,7 @@ def hello(count, name):
 
 def main():
     hello()
+
 
 if __name__ == '__main__':
     main()
