@@ -15,7 +15,7 @@ setup(
     author = 'Shereen Elsayed',
     author_email = 's_elsayed@ucsb.edu',
 
-    packages = find_packages(),
+#     packages = find_packages(),
 
     entry_points = {
         'console_scripts': [
