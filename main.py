@@ -8,7 +8,7 @@ import click
 def hello(count, name):
     """Simple program that greets NAME for a total of COUNT times."""
     for x in range(count):
-        click.echo('Hello %s!' % name)
+        click.echo('Hello %s! %s' % name age)
 
 
 def main():
