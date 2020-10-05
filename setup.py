@@ -7,7 +7,7 @@ with open(os.path.join(this_dir, 'README.md'), 'rb') as f:
     long_description = f.read().decode().strip()
 
 # requirements
-install_requires = ["click", "flake8"]
+install_requires = ["click", "flake8", "pytest"]
 
 setup(
     name = 'Hello-CS148',

@@ -23,3 +23,6 @@ jobs:
     - name: Lint
       run: |
         flake8 main.py --count --show-source --statistics
+    - name: test
+      run: |
+        pytest test.py
