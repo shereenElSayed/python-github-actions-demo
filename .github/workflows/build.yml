@@ -25,4 +25,4 @@ jobs:
         flake8 src/main.py --count --show-source --statistics
     - name: test
       run: |
-        python -m pytest -v .\tests\test.py
+        python -m pytest -v ./tests/test.py
