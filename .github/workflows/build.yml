@@ -22,7 +22,7 @@ jobs:
         pip install .
     - name: Lint
       run: |
-        flake8 main.py --count --show-source --statistics
+        flake8 src\main.py --count --show-source --statistics
     - name: test
       run: |
-        pytest test.py
+        python -m pytest -v .\tests\test.py

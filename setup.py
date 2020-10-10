@@ -10,7 +10,7 @@ with open(os.path.join(this_dir, 'README.md'), 'rb') as f:
 install_requires = ["click", "flake8", "pytest"]
 
 setup(
-    name = 'Hello-CS148',
+    name = 'CS148',
     description = 'Demo application for github actions',
     author = 'Shereen Elsayed',
     author_email = 's_elsayed@ucsb.edu',
@@ -19,7 +19,7 @@ setup(
 
     entry_points = {
         'console_scripts': [
-            'CS148 = main:main',
+            'CS148 = src.main:main',
         ],
     },
 
@@ -28,7 +28,7 @@ setup(
     setup_requires = ['setuptools_scm'],
     zip_safe=False,
     use_scm_version = {
-        'write_to': '_version.py'
+        'write_to': 'src/_version.py'
     },
 
     classifiers = [
